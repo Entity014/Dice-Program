@@ -116,7 +116,7 @@ class Base(tk.Tk):
             self.gif = ImageTk.PhotoImage(self.gif_resize)
             label.configure(image = self.gif)
             self.update()
-            time.sleep(0.05)
+            time.sleep(0.06)
         label.config(image= img[self.num_job-1])
         for x in range(0, 4):
             self.skill_num += 1
